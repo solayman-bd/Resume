@@ -1,0 +1,19 @@
+.introduction {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  height: 620px;
+
+  border: 1px solid red;
+}
+.intro-content h3 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.intro-content h2 {
+  font-size: 3em;
+  font-weight: bolder;
+}
+.intro-content h1 {
+  font-size: 2em;
+  font-weight: bolder;
+}
