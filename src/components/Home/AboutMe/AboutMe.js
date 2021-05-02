@@ -1,6 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import profileImg from "../../../image/profileImg.jpg";
+// import profileImg from "../../../image/profileImg.jpg";
+import profileImage from "../../../image/pImg-2.jpeg";
 import "./AboutMe.css";
 import Fade from "react-reveal/Fade";
 import { FaDownload } from "react-icons/fa";
@@ -41,7 +42,7 @@ const AboutMe = () => {
           <Image
             className="mt-3"
             style={{ width: "70%" }}
-            src={profileImg}
+            src={profileImage}
             roundedCircle
             fluid
           />

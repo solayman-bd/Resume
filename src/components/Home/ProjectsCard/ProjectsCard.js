@@ -26,20 +26,20 @@ const ProjectsCard = (props) => {
           <a
             href={liveLink}
             target="_new"
-            className="btn btn-outline-danger mx-1 card-button"
+            className="btn btn-outline-danger mx-1 my-1 card-button"
           >
             Live Link
           </a>
           <a
             href={gitHub}
             target="_new"
-            className="btn btn-outline-danger mx-1 card-button"
+            className="btn btn-outline-danger mx-1 my-1 card-button"
           >
             Git Hub Link
           </a>
           <button
             onClick={openModal}
-            className="btn btn-outline-danger mx-1 card-button"
+            className="btn btn-outline-danger my-1 mx-1 card-button"
           >
             Detail Features
           </button>

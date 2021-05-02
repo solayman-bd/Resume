@@ -16,9 +16,9 @@ const Header = () => {
         <Nav className="mx-auto" id="header">
           <Nav.Link href="#header">Home</Nav.Link>
           <Nav.Link href="#about-me">About</Nav.Link>
-          <Nav.Link href="#pricing">Projects</Nav.Link>
-          <Nav.Link href="#pricing">Blogs</Nav.Link>
-          <Nav.Link href="#pricing">Contact Me</Nav.Link>
+          <Nav.Link href="#projects">Projects</Nav.Link>
+          <Nav.Link href="#blogs">Blogs</Nav.Link>
+          <Nav.Link href="#contact-me">Contact Me</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -39,11 +39,15 @@ const Introduction = () => {
             <h1>A passionate</h1>
             <h1>MERN stack Developer........</h1>
           </Typist>
-          <button className="btn button-style btn-primary mb-3 text-light">
+          <a
+            href="https://www.linkedin.com/in/md-solayman-3229241aa/"
+            target="_new"
+            className="btn button-style btn-primary mb-3 text-light"
+          >
             {" "}
-            View My Work
-            <FaArrowRight />
-          </button>
+            Connect With Me
+            <FaArrowRight className="mx-1" />
+          </a>
         </div>
       </div>
     </div>
