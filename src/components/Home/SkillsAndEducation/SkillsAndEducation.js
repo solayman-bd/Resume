@@ -1,7 +1,7 @@
 import React from "react";
 import "./SkillsAndEducation.css";
 import Fade from "react-reveal/Fade";
-import Spin from "react-reveal/Spin";
+import Jump from "react-reveal/Jump";
 const comfortableSKill = [
   "HTML",
   "CSS",
@@ -32,7 +32,7 @@ const SkillsAndEducation = () => {
   return (
     <section className="skills-and-education row justify-content-center my-5 py-5">
       <h1 className="text-center fw-bolder">
-        <Spin>Skills and Educations</Spin>
+        <Jump>Skills and Educations</Jump>
       </h1>
       <div className="col-sm-12 col-md-6 mt-3">
         <h1 className=" text-center fw-bold">Skills</h1>
