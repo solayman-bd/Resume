@@ -1,0 +1,16 @@
+.about-me {
+  background-color: #000524;
+
+  color: white;
+  border: 1px solid black;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+.about-content > h1 {
+  font-weight: bolder;
+}
+.about-content > h3 {
+  font-size: 1.5rem;
+  padding: 15px;
+}

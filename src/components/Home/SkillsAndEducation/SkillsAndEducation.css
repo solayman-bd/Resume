@@ -1,0 +1,13 @@
+.skills-and-education {
+  background-color: white;
+  color: black;
+  height: 500px;
+}
+/* .skill-name {
+} */
+.skill-container,
+.education-container {
+  width: 85%;
+  margin: 20px auto;
+  padding: 20px;
+}
