@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedinIn, FaFacebook } from "react-icons/fa";
 const Footer = () => {
   return (
     <section id="footer" className="mx-auto">
-      <h5 className="text-center py-3">Some more ways to know about me</h5>
+      <h5 className="text-center py-3">Some more ways to find me</h5>
       <div className="social-icon-container text-center">
         <a href="https://github.com/solayman-bd" target="_new">
           {" "}
