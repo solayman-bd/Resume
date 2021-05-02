@@ -50,7 +50,7 @@ const blogData = [
 ];
 const BlogPost = () => {
   return (
-    <section id="blogs" className="blog-post my-5 py-4">
+    <section id="blogs" className="blog-post py-4">
       <HeadShake>
         {" "}
         <h1 className="heading text-center mb-5">Blog Posts</h1>

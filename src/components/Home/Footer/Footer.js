@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -16,6 +16,9 @@ const Footer = () => {
           target="_new"
         >
           <FaLinkedinIn className="mx-1 social-icon fs-3" />
+        </a>
+        <a href="https://www.facebook.com/mdsolayman1727041" target="_new">
+          <FaFacebook className="mx-1 social-icon fs-3" />
         </a>
       </div>
       <div>

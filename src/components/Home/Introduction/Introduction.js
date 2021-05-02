@@ -23,7 +23,7 @@ const Introduction = () => {
       />
       <div className="col-sm-12 col-md-6 text-center">
         <Image
-          className="mt-1"
+          className="mt-1 border border-4 border-primary"
           style={{ width: "70%" }}
           src={profileImg}
           roundedCircle

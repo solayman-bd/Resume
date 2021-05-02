@@ -13,7 +13,7 @@ const AboutMe = () => {
       className="about-me row align-items-center justify-content-center"
     >
       <Fade top cascade>
-        <div className="col-sm-12 col-md-6">
+        <div className="col-sm-12 col-md-6 ">
           <div className="about-content text-center mt-1 pb-2">
             {" "}
             <h1 className="pb-5 mt-5 pt-3 text-warning">ABOUT ME</h1>
@@ -40,7 +40,7 @@ const AboutMe = () => {
         </div>
         <div className="col-sm-12 col-md-6 text-center">
           <Image
-            className="mt-3"
+            className="my-3 border border-4 border-danger"
             style={{ width: "70%" }}
             src={profileImage}
             roundedCircle
