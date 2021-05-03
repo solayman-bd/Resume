@@ -34,17 +34,27 @@ const ContactMe = () => {
       <div className="w-50 mx-auto">
         <Form onSubmit={sendEmail}>
           <Form.Group className="my-2" controlId="name">
-            <Form.Control type="text" placeholder="Name" name="name" />
+            <Form.Control type="text" placeholder="Name" name="name" required />
           </Form.Group>
           <Form.Group className="my-2" controlId="email">
-            <Form.Control name="email" type="email" placeholder="Enter" />
+            <Form.Control
+              name="email"
+              type="email"
+              placeholder="Enter"
+              required
+            />
           </Form.Group>
 
           <Form.Group className="my-2" controlId="subject">
-            <Form.Control type="text" placeholder="Subject" name="subject" />
+            <Form.Control
+              type="text"
+              placeholder="Subject"
+              name="subject"
+              required
+            />
           </Form.Group>
           <Form.Group className="my-2" controlId="message">
-            <Form.Control as="textarea" rows={3} name="message" />
+            <Form.Control as="textarea" rows={3} name="message" required />
           </Form.Group>
           <Button
             className="my-2 contact-button"
