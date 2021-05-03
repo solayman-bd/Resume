@@ -81,9 +81,9 @@ const SkillsAndEducation = () => {
           </div>{" "}
           <div className="college mt-5">
             <h3>HSC</h3>
-            <h5>Akij Foundation School And College (AFSC), Uttara, Dhaka</h5>
+            <h5>Akij Foundation School And College (AFSC), Uttara, Dhaka.</h5>
             <h5>Group: Science</h5>
-            <h5>GPA: 5.00 </h5>
+            <h5>GPA: 4.86 </h5>
             <h5>2017</h5>
           </div>
         </div>
