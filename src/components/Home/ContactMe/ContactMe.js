@@ -3,6 +3,7 @@ import "./ContactMe.css";
 import emailjs from "emailjs-com";
 import Jump from "react-reveal/Jump";
 import { Button, Form } from "react-bootstrap";
+import { GoMail } from "react-icons/go";
 
 const ContactMe = () => {
   function sendEmail(e) {
@@ -61,6 +62,7 @@ const ContactMe = () => {
             variant="primary"
             type="submit"
           >
+            <GoMail className="mx-1" />
             Send Message
           </Button>
         </Form>

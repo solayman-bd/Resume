@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ProjectDetailsModals from "../ProjectDetailsModals/ProjectDetailsModals";
 import "./ProjectsCard.css";
+import { GoLightBulb, GoMarkGithub, GoTasklist } from "react-icons/go";
 
 const ProjectsCard = (props) => {
   const { name, feature, gitHub, liveLink, img, featureDetails } = props.data;
@@ -28,20 +29,20 @@ const ProjectsCard = (props) => {
             target="_new"
             className="btn btn-outline-danger mx-1 my-1 card-button"
           >
-            Live Link
+            <GoLightBulb className="mx-1" /> Live Link
           </a>
           <a
             href={gitHub}
             target="_new"
             className="btn btn-outline-danger mx-1 my-1 card-button"
           >
-            Git Hub Link
+            <GoMarkGithub className="mx-1" /> GitHub Link
           </a>
           <button
             onClick={openModal}
             className="btn btn-outline-danger my-1 mx-1 card-button"
           >
-            Detail Features
+            <GoTasklist className="mx-1" /> Detail Features
           </button>
           <ProjectDetailsModals
             modalIsOpen={modalIsOpen}
