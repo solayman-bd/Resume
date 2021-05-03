@@ -69,28 +69,23 @@ const SkillsAndEducation = () => {
           style={{ height: "467px" }}
           className="education-container rounded border border-4"
         >
-          <Fade left>
-            {" "}
-            <div className="university mt-4">
-              <h3>BSC Eng.</h3>
-              <h5>
-                Khulna University of Engineering and Technology (KUET), Khulna.
-              </h5>
+          {" "}
+          <div className="university mt-4">
+            <h3>BSC Eng.</h3>
+            <h5>
+              Khulna University of Engineering and Technology (KUET), Khulna.
+            </h5>
 
-              <h5>Department of Materials Science and Engineering</h5>
-              <h5>2018-present</h5>
-            </div>
-          </Fade>
-          <Fade right>
-            {" "}
-            <div className="college mt-5">
-              <h3>HSC</h3>
-              <h5>Akij Foundation School And College (AFSC), Uttara, Dhaka</h5>
-              <h5>Group: Science</h5>
-              <h5>GPA: 5.00 </h5>
-              <h5>2017</h5>
-            </div>
-          </Fade>
+            <h5>Department of Materials Science and Engineering</h5>
+            <h5>2018-present</h5>
+          </div>{" "}
+          <div className="college mt-5">
+            <h3>HSC</h3>
+            <h5>Akij Foundation School And College (AFSC), Uttara, Dhaka</h5>
+            <h5>Group: Science</h5>
+            <h5>GPA: 5.00 </h5>
+            <h5>2017</h5>
+          </div>
         </div>
       </div>
     </section>

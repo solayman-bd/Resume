@@ -1,6 +1,7 @@
 import React from "react";
 import "./ContactMe.css";
 import emailjs from "emailjs-com";
+import Jump from "react-reveal/Jump";
 import { Button, Form } from "react-bootstrap";
 
 const ContactMe = () => {
@@ -26,7 +27,10 @@ const ContactMe = () => {
   }
   return (
     <div id="contact-me" className="contact-section mx-auto">
-      <h1 className="text-center py-5">Contact Me</h1>
+      <Jump>
+        <h1 className="text-center py-5">Contact Me</h1>
+      </Jump>
+
       <div className="w-50 mx-auto">
         <Form onSubmit={sendEmail}>
           <Form.Group className="my-2" controlId="name">
@@ -42,7 +46,11 @@ const ContactMe = () => {
           <Form.Group className="my-2" controlId="message">
             <Form.Control as="textarea" rows={3} name="message" />
           </Form.Group>
-          <Button className="my-2" variant="primary" type="submit">
+          <Button
+            className="my-2 contact-button"
+            variant="primary"
+            type="submit"
+          >
             Send Message
           </Button>
         </Form>
