@@ -66,7 +66,7 @@ const SkillsAndEducation = () => {
       <div className="col-sm-12 col-md-6">
         <h1 className="fw-bold mt-3 text-center">Education</h1>
         <div
-          style={{ height: "467px" }}
+          style={{ minHeight: "467px" }}
           className="education-container rounded border border-4"
         >
           {" "}
